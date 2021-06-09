@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BareksaAndroid_TakeHomeTest</string>
+    <string name="perbandingan">Perbandingan</string>
+    <string name="imbal_hasil">Imbal Hasil</string>
+    <string name="dana_kelolaan">Dana Kelolaan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
