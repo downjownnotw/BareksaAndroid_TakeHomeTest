@@ -1,0 +1,2 @@
+rootProject.name = "BareksaAndroid_TakeHomeTest"
+include ':app'
