@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <data>
+        <variable
+            name="data"
+            type="raderido.me.bareksaandroid_takehometest.DataContent" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/title_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{data.title}"
+            style="@style/DataContentFont"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_marginTop="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_data"
+            app:layout_constraintEnd_toEndOf="parent">
+            <TextView
+                android:id="@+id/data_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_green"
+                android:text="@{data.data1}"
+                style="@style/DataContentFont"
+                />
+            <TextView
+                android:id="@+id/data_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_purple"
+                android:text="@{data.data2}"
+                style="@style/DataContentFont"
+                />
+
+            <TextView
+                android:id="@+id/data_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_blue"
+                android:text="@{data.data3}"
+                style="@style/DataContentFont"
+                />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

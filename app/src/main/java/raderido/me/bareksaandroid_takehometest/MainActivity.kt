@@ -38,5 +38,4 @@ class MainActivity : AppCompatActivity() {
         val touchSlop = touchSlopField.get(recyclerView) as Int
         touchSlopField.set(recyclerView, touchSlop*sensitivity)
     }
-
 }
