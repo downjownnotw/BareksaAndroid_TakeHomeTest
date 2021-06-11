@@ -50,8 +50,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     // Koin for Android
-
     implementation "io.insert-koin:koin-android:$koin_version"
     implementation "io.insert-koin:koin-android-viewmodel:$koin_version"
 
+    //lib graphic line
+    implementation "com.github.PhilJay:MPAndroidChart:v3.1.0"
 }
