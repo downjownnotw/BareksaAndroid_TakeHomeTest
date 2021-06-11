@@ -3,6 +3,12 @@
     <string name="perbandingan">Perbandingan</string>
     <string name="imbal_hasil">Imbal Hasil</string>
     <string name="dana_kelolaan">Dana Kelolaan</string>
-
+    <string name="time_tabs_1w">1W</string>
+    <string name="time_tabs_1m">1M</string>
+    <string name="time_tabs_1y">1Y</string>
+    <string name="time_tabs_3y">3Y</string>
+    <string name="time_tabs_5y">5Y</string>
+    <string name="time_tabs_10y">10Y</string>
+    <string name="time_tabs_all">All</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

@@ -3,13 +3,14 @@
     package="raderido.me.bareksaandroid_takehometest">
 
     <application
+        android:name=".ApplicationController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BareksaAndroid_TakeHomeTest">
-        <activity android:name=".MainActivity"
+        <activity android:name=".ui.main.MainActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

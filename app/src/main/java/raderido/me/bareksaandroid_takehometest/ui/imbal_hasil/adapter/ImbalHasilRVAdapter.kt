@@ -1,18 +1,21 @@
-package raderido.me.bareksaandroid_takehometest
+package raderido.me.bareksaandroid_takehometest.ui.imbal_hasil.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
-import raderido.me.bareksaandroid_takehometest.MainRecyclerViewAdapter.MainVH
+import raderido.me.bareksaandroid_takehometest.BR
+import raderido.me.bareksaandroid_takehometest.R
 import raderido.me.bareksaandroid_takehometest.databinding.DataContentLayoutBinding
+import raderido.me.bareksaandroid_takehometest.ui.imbal_hasil.adapter.ImbalHasilRVAdapter.MainVH
+import raderido.me.bareksaandroid_takehometest.repo.model.DataContent
 
-class MainRecyclerViewAdapter : RecyclerView.Adapter<MainVH>() {
-
+class ImbalHasilRVAdapter : RecyclerView.Adapter<MainVH>() {
     private var data: List<DataContent> = ArrayList()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainVH {
-        val binding: DataContentLayoutBinding = DataBindingUtil.inflate(LayoutInflater.from(parent.context), R.layout.data_content_layout, parent, false)
+        val binding: DataContentLayoutBinding = DataBindingUtil.inflate(LayoutInflater.from(parent.context),
+            R.layout.data_content_layout, parent, false)
         return MainVH(binding)
     }
 

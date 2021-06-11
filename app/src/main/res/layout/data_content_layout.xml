@@ -6,7 +6,7 @@
     <data>
         <variable
             name="data"
-            type="raderido.me.bareksaandroid_takehometest.DataContent" />
+            type="raderido.me.bareksaandroid_takehometest.repo.model.DataContent" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

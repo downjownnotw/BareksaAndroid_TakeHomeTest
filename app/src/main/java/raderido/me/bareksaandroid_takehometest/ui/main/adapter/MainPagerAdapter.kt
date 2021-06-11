@@ -1,8 +1,11 @@
-package raderido.me.bareksaandroid_takehometest
+package raderido.me.bareksaandroid_takehometest.ui.main.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import raderido.me.bareksaandroid_takehometest.ui.dana_kelolaan.DanaKelolaanFragment
+import raderido.me.bareksaandroid_takehometest.ui.imbal_hasil.ImbalHasilFragment
+import raderido.me.bareksaandroid_takehometest.R
 
 class MainPagerAdapter(private val activity: FragmentActivity): FragmentStateAdapter(activity) {
 

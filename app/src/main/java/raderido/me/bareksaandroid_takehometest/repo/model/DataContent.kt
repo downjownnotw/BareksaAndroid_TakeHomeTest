@@ -1,4 +1,4 @@
-package raderido.me.bareksaandroid_takehometest
+package raderido.me.bareksaandroid_takehometest.repo.model
 
 data class DataContent (
     val title: String,
